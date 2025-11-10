@@ -1,1 +1,23 @@
+Programa de Formación
+Análisis y Desarrollo de Software  
+**Trimestre:  3
+**Aprendiz: Maileth Begambre
+**Instructor: Carlos  
+**Centro de Formación: SENA
+**Año: 2025  
+Competencia
+Desarrollar la solución de software de acuerdo con el diseño y metodologías de desarrollo
+
+BITACORA 
+primero cree la carpeta mi primer reac escribiendo en la terminal
+mkdir mi-primer-react
+cd mi-primer-react
+luego de haber creado mi carpeta cree mi proyecto con vite en la pantalla de react
+escribiendo este comando 
+npm create vite@latest . -- --template react
+luego eleji el entorno en que queria trabajar
+en este caso javascript
+luego seleccione el framework
+que fue react
+y ya se me crean todos los paketes necerios el entorno que esta en las imagenes 
 
