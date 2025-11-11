@@ -3,8 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+
+
+// Componente CabeceraCV
+function CabeceraCV() {
+  return (
+    <header>
+      <h1>Maileth Begambre</h1>
+      <h2>Aprendiz SENA</h2>
+      <p>3114027973</p>
+      <p>mailethbegambre615@gmail.com</p>
+      <p>medellin_colombia</p>
+    </header>
+  );
+}
 
   return (
     <>
@@ -30,6 +42,6 @@ function App() {
       </p>
     </>
   )
-}
+
 
 export default App
