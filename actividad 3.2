@@ -1,0 +1,70 @@
+Procesos de Gestión de Dependencias en JavaScript
+¿Qué es un gestor de dependencias de código?
+Es una herramienta que permite instalar, actualizar, configurar y eliminar librerías o 
+módulos que un
+proyecto necesita para funcionar correctamente. Facilita la administración de las 
+dependencias y sus
+versiones.
+¿Qué es npm?
+npm (Node Package Manager) es el gestor de paquetes oficial de Node.js. Permite 
+instalar y
+administrar las dependencias y librerías necesarias para proyectos en JavaScript.
+¿Para qué se utiliza principalmente npm?
+Se utiliza para instalar, compartir y administrar paquetes o módulos de JavaScript que 
+ayudan al
+desarrollo de aplicaciones. También se usa para ejecutar scripts definidos en el archivo 
+package.json.
+¿Qué es el versionado semántico?
+Es un sistema que define cómo se asignan números de versión a los paquetes de 
+software, indicando
+los cambios realizados: nuevas funcionalidades, correcciones o rupturas de compatibilidad
+¿Cómo está especificado el versionado semántico?
+El formato es MAJOR.MINOR.PATCH. Ejemplo: 2.5.1 - MAJOR: cambios incompatibles. 
+- MINOR:
+nuevas características compatibles. - PATCH: correcciones de errores.
+¿Qué son las dependencias locales?
+Son las librerías que se instalan en el proyecto actual, dentro de la carpeta 
+node_modules. Solo se
+usan en ese proyecto.
+¿Qué son las dependencias de desarrollo?
+Son las librerías necesarias solo durante el desarrollo del proyecto, como herramientas 
+de prueba o
+compiladores. Se instalan con el parámetro --save-dev.
+¿Qué son las dependencias de desarrollo?
+Son las librerías necesarias solo durante el desarrollo del proyecto, como herramientas 
+de prueba o
+compiladores. Se instalan con el parámetro --save-dev.
+¿Qué son las dependencias globales?
+Son librerías que se instalan de forma global en el sistema, disponibles para cualquier 
+proyecto. Se
+instalan con el parámetro -g o --global.
+¿Qué es el archivo package.json y cuál es su utilidad?
+Es un archivo que contiene la información y configuración de un proyecto Node.js. 
+Define el nombre,
+versión, dependencias, scripts y metadatos del proyecto.
+¿Qué es el archivo package-lock.json y qué utilidad tiene?
+Es un archivo que registra las versiones exactas de las dependencias instaladas, 
+asegurando que el
+proyecto funcione igual en todos los entornos.
+¿Qué es la carpeta node_modules en un proyecto de npm?
+Es la carpeta donde se almacenan físicamente todas las dependencias instaladas en el 
+proyecto
+mediante npm
+
+
+
+Cheat Sheet: Procesos con npm
+
+
+
+• Inicializar un proyecto npm: npm init -y
+• Instalar dependencias locales: npm install nombre-paquete
+• Instalar dependencias de desarrollo: npm install nombre-paquete --save￾dev
+• Instalar dependencias globales: npm install -g nombre-paquete
+• Visualizar dependencias instaladas: npm list --depth=0
+• Instalar una versión específica de un paquete: npm install nombre￾paquete@1.2.3
+• Crear un comando (script) en package.json: "scripts": { "start": "node 
+index.js" }
+• Actualizar dependencias: npm update
+• Eliminar paquetes: npm uninstall nombre-paquete
+• Actualizar node_modules: rm -rf node_modules && npm instal
