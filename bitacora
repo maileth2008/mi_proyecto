@@ -8,16 +8,24 @@ Análisis y Desarrollo de Software
 Competencia
 Desarrollar la solución de software de acuerdo con el diseño y metodologías de desarrollo
 
-BITACORA 
-primero cree la carpeta mi primer reac escribiendo en la terminal
+
+Primero creé la carpeta mi-primer-react escribiendo en la terminal:
+
 mkdir mi-primer-react
 cd mi-primer-react
-luego de haber creado mi carpeta cree mi proyecto con vite en la pantalla de react
-escribiendo este comando 
+
+
+Luego, dentro de la carpeta, generé mi proyecto con Vite utilizando el siguiente comando:
+
 npm create vite@latest . -- --template react
-luego eleji el entorno en que queria trabajar
-en este caso javascript
-luego seleccione el framework
-que fue react
-y ya se me crean todos los paketes necerios el entorno que esta en las imagenes 
+
+
+Después elegí el entorno de trabajo, que en este caso fue JavaScript, y seleccioné el framework React.
+
+Con esto se generaron todos los paquetes necesarios y el entorno de desarrollo, como se muestra en las imágenes.
+
+Dentro de la carpeta src creé una carpeta llamada componentes para organizar los archivos:
+Cabecera, Perfil, Experiencia y Educación.
+
+Finalmente, en el archivo App.jsx enlacé los componentes Cabecera, Perfil, Experiencia y Educación.
 
